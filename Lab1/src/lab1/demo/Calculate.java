@@ -10,7 +10,7 @@ public class Calculate {
         planetWeightResult();
     }
 
-    static double myweight;
+    static double myweightkg;
 
     public static void weight() {
         boolean exit = false;
@@ -20,7 +20,7 @@ public class Calculate {
         if (choice == 1)
         {
           System.out.println("Please enter your weight in kilograms(KG).");
-          myweight = in.nextDouble();
+          myweightkg = in.nextDouble();
         }
         if (choice == 2)
         {
@@ -30,8 +30,8 @@ public class Calculate {
     }
 
     public static void planetWeightResult()     { 
-    	System.out.printf("Your weight on Earth is: %.1f kg\n", (myweight));
-        System.out.printf("Thus, your weight on Mars is: %.1f kg\n", (myweight * 0.38));
+    	System.out.printf("Your weight on Earth is: %.1f kg\n", (myweightkg));
+        System.out.printf("Thus, your weight on Mars is: %.1f kg\n", (myweightkg * 0.38));
         weight();
     }
 	
