@@ -7,8 +7,8 @@ public class WeightList {
 	public static void WeightList() {
 		ArrayList<Double> weight = new ArrayList<Double>();
 		weight.add((double) 100);
-		weight.add((double) 60);
-		weight.add((double) 55);
+		weight.add((double) 70);
+		weight.add((double) 45);
 		
 		for (int i = 0; i < weight.size(); i++) {
 			System.out.printf("\n\n");
